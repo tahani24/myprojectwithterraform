@@ -1,0 +1,28 @@
+# Ignore ChromaDB local storage
+chroma_db/
+chroma.sqlite3
+chroma.sqlite3-wal
+chroma.sqlite3-shm
+
+# Ignore virtual environment
+venv/
+
+# Ignore environment variables
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs and temporary files
+logs/
+*.log
+
+# Ignore system files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
