@@ -6,7 +6,7 @@ chroma.sqlite3-shm
 chat_logs/
 ChromaDB/
 pdf_store/
-
+chroma.log
 
 # Ignore virtual environment
 venv/
