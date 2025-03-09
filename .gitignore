@@ -3,6 +3,10 @@ chroma_db/
 chroma.sqlite3
 chroma.sqlite3-wal
 chroma.sqlite3-shm
+chat_logs
+ChromaDB
+pdf_store
+
 
 # Ignore virtual environment
 venv/
