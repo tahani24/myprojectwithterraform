@@ -8,6 +8,6 @@ jobs:
   runs-on: ubunto-lastes
 
   steps:
-  - name: say hello
-    run: echo "hello world"
+   - name: say hello
+     run: echo "hello world"
    
