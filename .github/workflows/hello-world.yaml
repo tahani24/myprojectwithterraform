@@ -1,13 +1,12 @@
-name: hello world
+name: Hello World
 
 on:
- workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
- say-hello:
-  runs-on: ubuntu-lastes
+  say-hello:
+    runs-on: ubuntu-latest
 
-  steps:
-    - name: say hello
-      run: echo "hello world"
-   
+    steps:
+      - name: Say Hello
+        run: echo "Hello, world!"
