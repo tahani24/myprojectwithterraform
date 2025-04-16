@@ -37,9 +37,9 @@ jobs:
     # Execute the Update Script on the VM
     - name: Deploy to Azure VM
       run: |
-        az vmss extension set \
+        az vm extension set \
           --resource-group ${{ secrets.RESOURCE_GROUP }} \
-          --vmss-name ${{ secrets.VM_NAME }} \
+          --vm-name ${{ secrets.VM_NAME }} \
           --name CustomScript \
           --force-update \
           --publisher Microsoft.Azure.Extensions \
